@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    display: flex;
+    padding: 1.5rem;
+    
+}
+#nav-bar ul{
+display: flex;
+list-style-type: none;
+}
+#nav-bar li a{
+    text-decoration: none;
+    color: black;
+    
+    margin-right: 3rem;
+}
+#nav-bar li a:hover{
+    color: brown;
+}
+.title img{ 
+width: 30%;
+}
