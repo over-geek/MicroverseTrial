@@ -64,3 +64,37 @@ width: 30%;
     font-weight: bold;
     cursor: pointer;
 }
+#services{
+    width: 60%;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+#services ul li{
+    list-style-type: none;
+    margin-bottom: 3rem;
+    display: flex;
+}
+#services ul li img{
+    width: 50px;
+}
+#services ul li h2{
+    display: flex;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+#services img{
+    margin-right: 2rem;
+}
+.container{
+    width: 80%;
+    background-color: rgb(228, 228, 195);
+    margin: 0 auto 0 auto;
+    justify-items: end;
+}
+.container ul {
+    display: flex;
+}
+.container ul li{
+    list-style-type: none;
+    margin-right: 2rem;
+}
